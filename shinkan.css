@@ -121,4 +121,9 @@ position: absolute;
   .modal-content{
     width:350px;
   }
+  .modal img{
+    width:200px;
+    height: 200px;
+    padding-top: 10px;
+  }
 }
