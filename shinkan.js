@@ -14,7 +14,7 @@ let calendarHtml = '' // HTMLを組み立てる変数
 let startDay = 1
 const endDayCount = 30
 
-calendarHtml += '<h5>2019年4月 新歓日程(予定をクリックして詳細表示)</h5>'
+calendarHtml += '<h5>2019年4月 新歓日程(予定をタップして詳細表示)</h5>'
 calendarHtml += "<table>"
 
 
