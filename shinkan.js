@@ -86,6 +86,7 @@ document.getElementById('calendar').innerHTML = calendarHtml
 var btn_kbn = document.getElementById('btn_kbn');
 var modal_kbn = document.getElementById('modal_kbn');
 var kbn = document.getElementById('kbn');
+var cls_btn_kbn = document.getElementById('cls_btn_kbn');
 btn_kbn.addEventListener('click', function() {
   kbn.style.display = 'block';
 });
@@ -94,11 +95,15 @@ window.addEventListener('click', function(e) {
     kbn.style.display = 'none';
   }
 });
+cls_btn_kbn.addEventListener('click', function() {
+  kbn.style.display = 'none';
+});
 
 //練
 var btn_ren = document.getElementById('btn_ren');
 var modal_ren = document.getElementById('modal_ren');
 var ren = document.getElementById('ren');
+var cls_btn_ren = document.getElementById('cls_btn_ren');
 btn_ren.addEventListener('click', function() {
   ren.style.display = 'block';
 });
@@ -107,11 +112,15 @@ window.addEventListener('click', function(e) {
     ren.style.display = 'none';
   }
 });
+cls_btn_ren.addEventListener('click', function() {
+  ren.style.display = 'none';
+});
 
 //投
 var btn_tou = document.getElementsByClassName('btn_tou');
 var modal_tou = document.getElementById('modal_tou');
 var tou = document.getElementById('tou');
+var cls_btn_tou = document.getElementById('cls_btn_tou');
 for(let i = 0; i < btn_tou.length; i++){
   btn_tou[i].addEventListener('click', function() {
     tou.style.display = 'block';
@@ -122,11 +131,15 @@ window.addEventListener('click', function(e) {
     tou.style.display = 'none';
   }
 });
+cls_btn_tou.addEventListener('click', function() {
+  tou.style.display = 'none';
+});
 
 //遊
 var btn_yuu = document.getElementsByClassName('btn_yuu');
 var modal_yuu = document.getElementById('modal_yuu');
 var yuu = document.getElementById('yuu');
+var cls_btn_yuu = document.getElementById('cls_btn_yuu');
 for(let i = 0; i < btn_yuu.length; i++){
   btn_yuu[i].addEventListener('click', function() {
     yuu.style.display = 'block';
@@ -136,4 +149,7 @@ window.addEventListener('click', function(e) {
   if (e.target == modal_yuu) {
     yuu.style.display = 'none';
   }
+});
+cls_btn_yuu.addEventListener('click', function() {
+  yuu.style.display = 'none';
 });

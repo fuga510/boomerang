@@ -32,10 +32,6 @@ td:last-child {
     color: royalblue;
 }
 
-.modoru {
-  font-size: 10px;
-}
-
 .modal {
 position: fixed;
 z-index: 101;
@@ -46,7 +42,6 @@ width: 100%;
 overflow: auto;
 background-color: rgba(0,0,0,0.5);
 text-align: center;
-cursor: pointer;
 }
 
 .modal img{
